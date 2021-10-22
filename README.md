@@ -34,13 +34,6 @@
 ##### The Fifth Largest Heading
 ###### The Smallest Heading
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
 
 #### There are one more option to use Heading Tags using HTML syntax
 
@@ -79,13 +72,44 @@
     ___This Statement is both Bold and Italic___
 
 
-**This text will be bold**
-__This will also be bold__
-<strong>This will be bold too</strong>
+**This text will be bold**<br />
+__This will also be bold__<br />
+<strong>This will be bold too</strong><br />
 
-*This text will be italic*
-_This will also be italic_
-<em>This will be italic too</em>
+*This text will be italic*<br />
+_This will also be italic_<br />
+<em>This will be italic too</em><br />
 
 ~~This text will be Strikethrough~~
+<br />
+
+_You **can** combine them_<br />
+**This _Italic_ is combined With Bold**<br />
+<strong>This <em>Italic</em> is combined With Bold</strong><br />
+
+***This Statement is both Bold and Italic***<br />
+___This Statement is both Bold and Italic___<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
