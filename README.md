@@ -100,6 +100,28 @@ Text that is not a quote
 
 > Text that is a quote
 
+> This is a Quote.
+>> The Quted text in Quoted text.
+>>> Another Quote in Quoted text of Quoted text.
+
+### More styling
+
+    Monospace and Underlined text
+    
+<samp>The Statement having font family Monospace.</samp>
+
+<ins>The Underlined text.</ins>
+
+### Boxed Statement
+
+<table><tr><td>This Statement is in a Box.</td></tr></table>
+
+### Subscript and Superscript
+
+H<sub>2</sub>O
+
+5x<sup>2</sup>
+
 ### Quoting code - We can quote code by using backticks(`)
 
     Some basic Git commands are:
@@ -141,6 +163,51 @@ Python code:-
 import sys
 print("Hello World")
 ```
+
+<br /><br />
+
+## Table
+
+We can create table by using below syntax:-
+
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe | and :
+
+    | Default | Left align | Center align | Right align |
+    | - | :- | :-: | -: |
+    | 9999999999 | 9999999999 | 9999999999 | 9999999999 |
+    | 999999999 | 999999999 | 999999999 | 999999999 |
+    | 99999999 | 99999999 | 99999999 | 99999999 |
+    | 9999999 | 9999999 | 9999999 | 9999999 |
+    
+    
+    | Default    | Left align | Center align | Right align |
+    | ---------- | :--------- | :----------: | ----------: |
+    | 9999999999 | 9999999999 | 9999999999   | 9999999999  |
+    | 999999999  | 999999999  | 999999999    | 999999999   |
+    | 99999999   | 99999999   | 99999999     | 99999999    |
+    | 9999999    | 9999999    | 9999999      | 9999999     |
+    
+    
+    Default    | Left align | Center align | Right align
+    ---------- | :--------- | :----------: | ----------:
+    9999999999 | 9999999999 | 9999999999   | 9999999999 
+    999999999  | 999999999  | 999999999    | 999999999  
+    99999999   | 99999999   | 99999999     | 99999999   
+    9999999    | 9999999    | 9999999      | 9999999
+
+<br />
+
+| Default    | Left align | Center align | Right align |
+| ---------- | :--------- | :----------: | ----------: |
+| 9999999999 | 9999999999 | 9999999999   | 9999999999  |
+| 999999999  | 999999999  | 999999999    | 999999999   |
+| 99999999   | 99999999   | 99999999     | 99999999    |
+| 9999999    | 9999999    | 9999999      | 9999999     |
+
+
+
+
+
 
 
 
