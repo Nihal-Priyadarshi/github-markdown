@@ -90,17 +90,57 @@ _You **can** combine them_<br />
 ***This Statement is both Bold and Italic***<br />
 ___This Statement is both Bold and Italic___<br />
 
+### Quoting a text - We can quote a text by using ">"
 
+    Text that is not a quote
+    
+    > Text that is a quote
 
+Text that is not a quote
 
+> Text that is a quote
 
+### Quoting code - We can quote code by using backticks(`)
 
+    Some basic Git commands are:
+    ```
+    git status
+    git add
+    git commit
+    ```
 
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 
+<br />
 
+Function:
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
+<br />
 
+You can add an optional language identifier to enable syntax highlighting in your fenced code block.
 
+Ruby code:-
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+Python code:-
+```python
+import sys
+print("Hello World")
+```
 
 
 
