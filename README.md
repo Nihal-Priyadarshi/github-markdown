@@ -138,6 +138,8 @@ git add
 git commit
 ```
 
+Inline `code` has `back-ticks around` it.
+
 <br />
 
 Function:
@@ -149,7 +151,7 @@ function test() {
 
 <br />
 
-You can add an optional language identifier to enable syntax highlighting in your fenced code block.
+#### Note - You can add an optional language identifier to enable syntax highlighting in your fenced code block.
 
 Ruby code:-
 ```ruby
@@ -168,7 +170,7 @@ print("Hello World")
 
 ## Table
 
-We can create table by using below syntax:-
+#### We can create table by using below syntax:-
 
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe | and :
 
@@ -273,6 +275,35 @@ There are two types of ___Lists___
 </ul>
 
 #### Note - You can also use nested ***Unordered*** or ***Ordered*** list
+
+<br /><br />
+
+## Links
+
+    http://github.com - automatic!
+
+    [GitHub](http://github.com)
+
+http://github.com - automatic!
+
+[GitHub](http://github.com)
+
+#### Note - We can also create relative links with all relative link operands, such as ./ and ../
+
+<br /><br />
+
+## Images
+
+    ![Nihal Priyadarshi](https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg "Nihal Priyadarshi")
+    
+    Format: ![Alt Text](url)
+
+![Nihal Priyadarshi](https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg "Nihal Priyadarshi")
+
+#### Note - You can also use html tag to set height or width of the image.
+
+<img src="https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg" width="200" height="200"/>
+
 
 
 
