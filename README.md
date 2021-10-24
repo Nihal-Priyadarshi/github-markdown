@@ -204,10 +204,75 @@ You can create tables by assembling a list of words and dividing them with hyphe
 | 99999999   | 99999999   | 99999999     | 99999999    |
 | 9999999    | 9999999    | 9999999      | 9999999     |
 
+<br /><br />
 
+## Lists
 
+There are two types of ___Lists___
 
+### Unordered Lists
 
+    * Item 1
+    * Item 2
+      * Item 2a
+      * Item 2b
+      
+    - Item 1
+    - Item 2
+      - Item 2a
+      - Item 2b
+      
+    + Item 1
+    + Item 2
+      + Item 2a
+      + Item 2b
+      
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+### Ordered Lists
+
+    1. Item 1
+    1. Item 2
+    1. Item 3
+       1. Item 3a
+       1. Item 3b
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+#### Note - You must've to place child list just below the first letter of parent list.
+
+    1. First list item
+       - First nested list item
+         - Second nested list item
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+#### You can also add HTML syntax
+
+    <ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+    <li>Fourth item</li>
+    </ul>
+
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ul>
+
+#### Note - You can also use nested ***Unordered*** or ***Ordered*** list
 
 
 
