@@ -166,6 +166,14 @@ import sys
 print("Hello World")
 ```
 
+#### You can also simply indent your code by four spaces:
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+
 <br /><br />
 
 ## Table
@@ -304,12 +312,32 @@ http://github.com - automatic!
 
 <img src="https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg" width="200" height="200"/>
 
+## Inline HTML
 
+#### You can also use raw HTML in your Markdown.
 
+    <section>
+         <h2>Taste The Joy</h2>
+         <p>We are enlighting your every Sunday evening in our cafe, you can taste different varities of coffee
+              and listen to famous poets and their beautiful poetries.<br><br>You will always find something new
+              here.</p>
+    </section>
 
+#### Note - You Cannot use ___Markdown Syntax___ in HTML.
 
+<br /><br />
 
+## Task Lists
 
+#### We can create a task list items with a regular space character using a hyphen followed by [ ], and to mark a complete task, put an x inside the brackets, use [x].
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] (asdfgh) Add delight to the experience when all tasks are complete :tada:
 
 
 
