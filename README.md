@@ -369,8 +369,131 @@ http://github.com - automatic!
 
 ## Horizontal Rule
 
+#### We can use three hyphens, asterisks, or underscores to create a horizontal line.
 
+    ---
+    
+    Hyphens
+    
+    ***
+    
+    Asterisks
+    
+    ___
+    
+    Underscores
 
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+<br /><br />
+
+## Username @mentions
+
+Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
+
+<br /><br />
+
+## Reference Lists & Titles
+
+    **The quick brown [fox][1], jumped over the lazy [dog][2].**
+    
+    [1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
+    [2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
+
+**The quick brown [fox][1], jumped over the lazy [dog][2].**
+
+[1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
+[2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
+
+<br /><br />
+
+## Escaping
+
+    *   Asterisk
+    \   Backslash
+    `   Backtick
+    {}  Curly braces
+    .   Dot
+    !   Exclamation mark
+    #   Hash symbol
+    -   Hyphen symbol
+    ()  Parentheses
+    +   Plus symbol
+    []  Square brackets
+    _   Underscore
+
+    \*Escaping\*
+    \\Escaping\\
+    \`Escaping\`
+    \{Escaping\}
+    \.Escaping\.
+    \!Escaping\!
+    \#Escaping\#
+    \-Escaping\-
+    \(Escaping\)
+    \+Escaping\+
+    \[Escaping\]
+    \_Escaping\_
+
+\*Escaping\*
+
+\\Escaping\\
+
+\`Escaping\`
+
+\{Escaping\}
+
+\.Escaping\.
+
+\!Escaping\!
+
+\#Escaping\#
+
+\-Escaping\-
+
+\(Escaping\)
+
+\+Escaping\+
+
+\[Escaping\]
+
+\_Escaping\_
+
+<br /><br />
+
+## Comments
+
+We can include comments inside a .md file.
+
+    <!--
+    Lorem ipsum dolor sit amet
+    -->
+
+<!--
+Lorem ipsum dolor sit amet
+-->
+
+Here is a code written but no one is able to see it because it is a comment.
+
+<br /><br />
+
+## Automatic linking for URLs
+
+Any URL `http://www.github.com/` will be automatically converted into a clickable link.
+
+    http://www.github.com/
+
+http://www.github.com/
 
 
 
