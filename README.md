@@ -330,14 +330,54 @@ http://github.com - automatic!
 ## Task Lists
 
 #### We can create a task list items with a regular space character using a hyphen followed by [ ], and to mark a complete task, put an x inside the brackets, use [x].
+    
+    - [x] HTML
+    - [x] CSS
+    - [ ] Javascript
+    - [ ] Add delight to the experience when all tasks are complete :tada:
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] HTML
+- [x] CSS
+- [ ] Javascript
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] (asdfgh) Add delight to the experience when all tasks are complete :tada:
+#### We can also nest this task list.
+
+    - [ ] Frontend
+        - [x] HTML
+        - [x] CSS
+        - [x] Bootstrap
+        - [ ] Javascript
+    - [ ] Backend
+        - [ ] PHP
+        - [ ] Node.js
+        - [ ] Mongo.db
+    - [ ] Add delight to the experience when all tasks are complete :tada:
+
+- [ ] Frontend
+    - [x] HTML
+    - [x] CSS
+    - [x] Bootstrap
+    - [ ] Javascript
+- [ ] Backend
+    - [ ] PHP
+    - [ ] Node.js
+    - [ ] Mongo.db
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+<br /><br />
+
+## Horizontal Rule
+
+
+
+
+
+
+
+
+
+
 
 
 
