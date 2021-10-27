@@ -1,8 +1,8 @@
-# GitHub Markdown Syntax Guide
+# GitHub Markdown Syntax Guide #
 
-### Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files.
+### Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files. ###
 
-## Headers
+## Headers ##
 
     "#" This is use to apply h1 tag
     "##" This is use to apply h2 tag
@@ -27,15 +27,15 @@
 
     Markup: --------------- (below H2 text)
 
-# The Largest Heading
-## The Second Largest Heading
-### The Third Largest Heading
-#### The Fourth Largest Heading
-##### The Fifth Largest Heading
-###### The Smallest Heading
+# The Largest Heading #
+## The Second Largest Heading ##
+### The Third Largest Heading ###
+#### The Fourth Largest Heading ####
+##### The Fifth Largest Heading #####
+###### The Smallest Heading ######
 
 
-#### There are one more option to use Heading Tags using HTML syntax
+#### There are one more option to use Heading Tags using HTML syntax ####
 
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -46,8 +46,8 @@
 
 <br /><br />
 
-## Emphasis (Styling text)
-### We can use Styling tags to style our statements
+## Emphasis (Styling text) ##
+### We can use Styling tags to style our statements ###
 
     To make your text "Bold"
     **This text will be bold**
@@ -90,7 +90,7 @@ _You **can** combine them_<br />
 ***This Statement is both Bold and Italic***<br />
 ___This Statement is both Bold and Italic___<br />
 
-### Quoting a text - We can quote a text by using ">"
+### Quoting a text - We can quote a text by using ">" ###
 
     Text that is not a quote
     
@@ -104,7 +104,7 @@ Text that is not a quote
 >> The Quted text in Quoted text.
 >>> Another Quote in Quoted text of Quoted text.
 
-### More styling
+### More styling ###
 
     Monospace and Underlined text
     
@@ -112,17 +112,17 @@ Text that is not a quote
 
 <ins>The Underlined text.</ins>
 
-### Boxed Statement
+### Boxed Statement ###
 
 <table><tr><td>This Statement is in a Box.</td></tr></table>
 
-### Subscript and Superscript
+### Subscript and Superscript ###
 
 H<sub>2</sub>O
 
 5x<sup>2</sup>
 
-### Quoting code - We can quote code by using backticks(`)
+### Quoting code - We can quote code by using backticks(`) ###
 
     Some basic Git commands are:
     ```
@@ -151,7 +151,7 @@ function test() {
 
 <br />
 
-#### Note - You can add an optional language identifier to enable syntax highlighting in your fenced code block.
+#### Note - You can add an optional language identifier to enable syntax highlighting in your fenced code block. ####
 
 Ruby code:-
 ```ruby
@@ -166,7 +166,7 @@ import sys
 print("Hello World")
 ```
 
-#### You can also simply indent your code by four spaces:
+#### You can also simply indent your code by four spaces: ####
 
     function fancyAlert(arg) {
       if(arg) {
@@ -176,9 +176,9 @@ print("Hello World")
 
 <br /><br />
 
-## Table
+## Table ##
 
-#### We can create table by using below syntax:-
+#### We can create table by using below syntax:- ####
 
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe | and :
 
@@ -216,11 +216,11 @@ You can create tables by assembling a list of words and dividing them with hyphe
 
 <br /><br />
 
-## Lists
+## Lists ##
 
 There are two types of ___Lists___
 
-### Unordered Lists
+### Unordered Lists ###
 
     * Item 1
     * Item 2
@@ -242,7 +242,7 @@ There are two types of ___Lists___
   * Item 2a
   * Item 2b
 
-### Ordered Lists
+### Ordered Lists ###
 
     1. Item 1
     1. Item 2
@@ -256,7 +256,7 @@ There are two types of ___Lists___
    1. Item 3a
    1. Item 3b
 
-#### Note - You must've to place child list just below the first letter of parent list.
+#### Note - You must've to place child list just below the first letter of parent list. ####
 
     1. First list item
        - First nested list item
@@ -266,7 +266,7 @@ There are two types of ___Lists___
    - First nested list item
      - Second nested list item
 
-#### You can also add HTML syntax
+#### You can also add HTML syntax ####
 
     <ul>
     <li>First item</li>
@@ -282,11 +282,11 @@ There are two types of ___Lists___
 <li>Fourth item</li>
 </ul>
 
-#### Note - You can also use nested ***Unordered*** or ***Ordered*** list
+#### Note - You can also use nested ***Unordered*** or ***Ordered*** list ####
 
 <br /><br />
 
-## Links
+## Links ##
 
     http://github.com - automatic!
 
@@ -296,11 +296,11 @@ http://github.com - automatic!
 
 [GitHub](http://github.com)
 
-#### Note - We can also create relative links with all relative link operands, such as ./ and ../
+#### Note - We can also create relative links with all relative link operands, such as ./ and ../ ####
 
 <br /><br />
 
-## Images
+## Images ##
 
     ![Nihal Priyadarshi](https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg "Nihal Priyadarshi")
     
@@ -308,13 +308,13 @@ http://github.com - automatic!
 
 ![Nihal Priyadarshi](https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg "Nihal Priyadarshi")
 
-#### Note - You can also use html tag to set height or width of the image.
+#### Note - You can also use html tag to set height or width of the image. ####
 
 <img src="https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg" width="200" height="200"/>
 
-## Inline HTML
+## Inline HTML ##
 
-#### You can also use raw HTML in your Markdown.
+#### You can also use raw HTML in your Markdown. ####
 
     <section>
          <h2>Taste The Joy</h2>
@@ -323,13 +323,13 @@ http://github.com - automatic!
               here.</p>
     </section>
 
-#### Note - You Cannot use ___Markdown Syntax___ in HTML.
+#### Note - You Cannot use ___Markdown Syntax___ in HTML. ####
 
 <br /><br />
 
-## Task Lists
+## Task Lists ##
 
-#### We can create a task list items with a regular space character using a hyphen followed by [ ], and to mark a complete task, put an x inside the brackets, use [x].
+#### We can create a task list items with a regular space character using a hyphen followed by [ ], and to mark a complete task, put an x inside the brackets, use [x]. ####
     
     - [x] HTML
     - [x] CSS
@@ -341,7 +341,7 @@ http://github.com - automatic!
 - [ ] Javascript
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
-#### We can also nest this task list.
+#### We can also nest this task list. ####
 
     - [ ] Frontend
         - [x] HTML
@@ -367,9 +367,9 @@ http://github.com - automatic!
 
 <br /><br />
 
-## Horizontal Rule
+## Horizontal Rule ##
 
-#### We can use three hyphens, asterisks, or underscores to create a horizontal line.
+#### We can use three hyphens, asterisks, or underscores to create a horizontal line. ####
 
     ---
     
@@ -397,13 +397,13 @@ Underscores
 
 <br /><br />
 
-## Username @mentions
+## Username @mentions ##
 
 Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
 
 <br /><br />
 
-## Reference Lists & Titles
+## Reference Lists & Titles ##
 
     **The quick brown [fox][1], jumped over the lazy [dog][2].**
     
@@ -417,7 +417,7 @@ Typing an `@` symbol, followed by a username, will notify that person to come an
 
 <br /><br />
 
-## Escaping
+## Escaping ##
 
     *   Asterisk
     \   Backslash
@@ -471,23 +471,19 @@ Typing an `@` symbol, followed by a username, will notify that person to come an
 
 <br /><br />
 
-## Comments
+## Comments ##
 
 We can include comments inside a .md file.
+  
+    <!-- Lorem ipsum dolor sit amet -->
 
-    <!--
-    Lorem ipsum dolor sit amet
-    -->
-
-<!--
-Lorem ipsum dolor sit amet
--->
+<!-- Lorem ipsum dolor sit amet -->
 
 Here is a code written but no one is able to see it because it is a comment.
 
 <br /><br />
 
-## Automatic linking for URLs
+## Automatic linking for URLs ##
 
 Any URL `http://www.github.com/` will be automatically converted into a clickable link.
 
@@ -495,6 +491,64 @@ Any URL `http://www.github.com/` will be automatically converted into a clickabl
 
 http://www.github.com/
 
+<br /><br />
+
+## Emoji ##
+
+#### We can also include emojis in our `.md` file. ####
+
+
+
+
+
+
+
+
+<br /><br />
+
+## Referencing issues and pull requests ##
+
+#### You can bring up a list of suggested issues and pull requests within the repository by typing `#`. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result. ####
+
+`#` and issue or pull request number
+
+`GH-` and issue or pull request number
+
+`Username/Repository#` and issue or pull request number
+
+`Organization_name/Repository#` and issue or pull request number
+
+<br /><br />
+
+## Footnotes ##
+
+You can add footnotes to your content by using this bracket syntax:
+
+    Here is a simple footnote[^1].
+    
+    A footnote can also have multiple lines[^2].  
+    
+    You can also use words, to fit your writing style more closely[^note].
+    
+    [^1]: My reference.
+    [^2]: Every new line should be prefixed with 2 spaces.  
+      This allows you to have a footnote with multiple lines.
+    [^note]:
+        Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+        This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
 
 
 
