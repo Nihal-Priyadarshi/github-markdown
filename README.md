@@ -108,15 +108,23 @@ Text that is not a quote
 
     Monospace and Underlined text
     
+    <samp>The Statement having font family Monospace.</samp>
+    <ins>The Underlined text.</ins>
+    
 <samp>The Statement having font family Monospace.</samp>
 
 <ins>The Underlined text.</ins>
 
 ### Boxed Statement ###
 
+    <table><tr><td>This Statement is in a Box.</td></tr></table>
+
 <table><tr><td>This Statement is in a Box.</td></tr></table>
 
 ### Subscript and Superscript ###
+
+    H<sub>2</sub>O
+    5x<sup>2</sup>
 
 H<sub>2</sub>O
 
@@ -309,6 +317,8 @@ http://github.com - automatic!
 ![Nihal Priyadarshi](https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg "Nihal Priyadarshi")
 
 #### Note - You can also use html tag to set height or width of the image. ####
+
+    <img src="https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg" width="200" height="200"/>
 
 <img src="https://raw.githubusercontent.com/Nihal-Priyadarshi/Curriculum-vitae/master/Images/Nihal.jpg" width="200" height="200"/>
 
